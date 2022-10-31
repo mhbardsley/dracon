@@ -3,13 +3,8 @@ package(default_visibility = ["PUBLIC"])
 pip_library(
     name = "grpc",
     package_name = "grpcio",
-    hashes = [
-        "f81a854eeda013553881fedf6395a2e253d2f269a79e9318efb5d22d09246668",  # TM Mirror
-        "0d28cf192fcffdb370273a54cb1600df283bd4c56dff76f626849cc6f11ae278",  # Public
-        "caa92e3af01edfb5c9bd050071d3ba6a99791bebfa3414ffda8680fe801cfc3c",  # GitHub Actions
-    ],
     licences = ["Apache 2.0"],
-    version = "1.27.2",
+    version = "1.50.0",
 )
 
 pip_library(
