@@ -436,7 +436,7 @@ go_module(
     name = "structured_merge_diff",
     hashes = ["d32554e42cc7ad537545862c448477f23ef869a4b56c021b67a9d0abd343a87e"],
     install = [
-        "value"
+        "value",
     ],
     module = "sigs.k8s.io/structured-merge-diff/v4",
     version = "v4.2.3",
@@ -471,7 +471,6 @@ go_module(
     version = "1.0.3",
 )
 
-
 go_module(
     name = "google_gofuzz",
     hashes = ["3c1415b49842a84af07d85695ac04c205ef4a5cf57b9f1e202550319aaa07d57"],
@@ -505,7 +504,6 @@ go_module(
 go_module(
     name = "klog",
     hashes = ["65611c0c524fd566317544401200a461343706cf72c35981a7179c63a3f47e3f"],
-    module = "k8s.io/klog/v2",
     install = [
         "internal/buffer",
         "internal/clock",
@@ -514,6 +512,7 @@ go_module(
         "internal/severity",
         "",
     ],
+    module = "k8s.io/klog/v2",
     version = "v2.80.1",
     deps = [":logr"],
 )
